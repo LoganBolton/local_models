@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+local_models.egg-info/PKG-INFO
+local_models.egg-info/SOURCES.txt
+local_models.egg-info/dependency_links.txt
+local_models.egg-info/requires.txt
+local_models.egg-info/top_level.txt
