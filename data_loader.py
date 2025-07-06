@@ -113,16 +113,35 @@ class LicensePlateDataset(Dataset):
         image_path = os.path.join(self.images_dir, annotation['image'])
         image = Image.open(image_path).convert('RGB')
         
-        # Create conversation format
+        # Create conversation format for Qwen2.5-VL
         question = annotation['prefix']  # "detect License-Plate"
         answer = self._format_answer(annotation['suffix'])
         
-        # Format as conversation
-        conversation = f"Question: {question}\nAnswer: {answer}"
+        # Format as messages for chat template
+        messages = [
+            {
+                'role': 'user',
+                'content': [
+                    {'type': 'image', 'image': image},
+                    {'type': 'text', 'text': question}
+                ]
+            },
+            {
+                'role': 'assistant',
+                'content': answer
+            }
+        ]
+        
+        # Apply chat template
+        text = self.processor.apply_chat_template(
+            messages, 
+            tokenize=False, 
+            add_generation_prompt=False
+        )
         
         # Process with vision-language processor
         inputs = self.processor(
-            text=conversation,
+            text=text,
             images=image,
             return_tensors="pt",
             max_length=self.max_length,

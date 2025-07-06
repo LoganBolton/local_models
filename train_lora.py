@@ -6,13 +6,13 @@ import wandb
 from datetime import datetime
 from tqdm import tqdm
 from transformers import (
-    Qwen2VLForConditionalGeneration,
     AutoProcessor,
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling,
     set_seed
 )
+from transformers.models.qwen2_5_vl.modeling_qwen2_5_vl import Qwen2_5_VLForConditionalGeneration
 from peft import LoraConfig, get_peft_model, TaskType
 from data_loader import create_dataloaders
 import bitsandbytes as bnb
@@ -59,7 +59,7 @@ class LicensePlateTrainer:
                 bnb_4bit_use_double_quant=True,
             )
             
-            self.model = Qwen2VLForConditionalGeneration.from_pretrained(
+            self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
                 self.config['model_name'],
                 torch_dtype=torch.bfloat16,
                 quantization_config=bnb_config,
@@ -67,7 +67,7 @@ class LicensePlateTrainer:
                 trust_remote_code=True
             )
         else:
-            self.model = Qwen2VLForConditionalGeneration.from_pretrained(
+            self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
                 self.config['model_name'],
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
@@ -139,7 +139,7 @@ class LicensePlateTrainer:
             logging_steps=self.config['logging_steps'],
             save_steps=self.config['save_steps'],
             eval_steps=self.config['eval_steps'],
-            evaluation_strategy="steps",
+            eval_strategy="steps",
             save_total_limit=self.config['save_total_limit'],
             load_best_model_at_end=True,
             metric_for_best_model="eval_loss",
@@ -168,7 +168,6 @@ class LicensePlateTrainer:
             train_dataset=self.train_dataset,
             eval_dataset=self.val_dataset,
             data_collator=data_collator,
-            tokenizer=self.processor.tokenizer,
         )
         
         # Train
@@ -234,8 +233,8 @@ def main():
         "images_dir": "dataset",
         "output_dir": "./results",
         "num_epochs": 3,
-        "batch_size": 2,
-        "gradient_accumulation_steps": 4,
+        "batch_size": 4,
+        "gradient_accumulation_steps": 2,
         "learning_rate": 1e-4,
         "weight_decay": 0.01,
         "max_length": 512,
