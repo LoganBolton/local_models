@@ -3,7 +3,8 @@ import argparse
 import json
 import os
 from PIL import Image
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import AutoProcessor
+from transformers.models.qwen2_5_vl.modeling_qwen2_5_vl import Qwen2_5_VLForConditionalGeneration
 from peft import PeftModel
 import re
 from typing import List, Tuple, Optional
@@ -35,7 +36,7 @@ class LicensePlateInference:
         )
         
         # Load base model
-        self.model = Qwen2VLForConditionalGeneration.from_pretrained(
+        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             self.base_model_name,
             torch_dtype=torch.bfloat16,
             device_map="auto",
@@ -43,13 +44,13 @@ class LicensePlateInference:
         )
         
         # Load LoRA weights if available
-        if os.path.exists(self.model_path):
-            print(f"Loading LoRA weights from: {self.model_path}")
-            self.model = PeftModel.from_pretrained(self.model, self.model_path)
-            self.model = self.model.merge_and_unload()
-        else:
-            print(f"Warning: LoRA weights not found at {self.model_path}")
-            print("Using base model without fine-tuning")
+        # if os.path.exists(self.model_path):
+        #     print(f"Loading LoRA weights from: {self.model_path}")
+        #     self.model = PeftModel.from_pretrained(self.model, self.model_path)
+        #     self.model = self.model.merge_and_unload()
+        # else:
+        #     print(f"Warning: LoRA weights not found at {self.model_path}")
+        #     print("Using base model without fine-tuning")
             
         self.model.eval()
         
@@ -259,9 +260,7 @@ class LicensePlateInference:
 def main():
     """Main inference function."""
     parser = argparse.ArgumentParser(description="License Plate Detection Inference")
-    parser.add_argument("--model_path", type=str, required=True, help="Path to fine-tuned model")
-    parser.add_argument("--image_path", type=str, help="Path to input image")
-    parser.add_argument("--image_dir", type=str, help="Directory containing images")
+    parser.add_argument("--model_path", type=str, help="Path to fine-tuned model")
     parser.add_argument("--output_dir", type=str, default="./predictions", help="Output directory")
     parser.add_argument("--visualize", action="store_true", help="Create visualization")
     parser.add_argument("--base_model", type=str, default="Qwen/Qwen2.5-VL-3B-Instruct", help="Base model name")
@@ -273,60 +272,31 @@ def main():
     
     # Initialize inference
     inference = LicensePlateInference(args.model_path, args.base_model)
-    
+    imag_dir = "dataset"
     # Process images
-    if args.image_path:
-        # Single image
-        print(f"Processing image: {args.image_path}")
-        results = inference.predict(args.image_path)
-        
-        # Print results
-        print(f"\nResults for {args.image_path}:")
-        print(f"Number of detections: {results['num_detections']}")
-        print(f"Raw response: {results['raw_response']}")
-        
-        for i, detection in enumerate(results['detections']):
-            bbox = detection['bbox_actual']
-            print(f"Detection {i+1}: [{bbox['x1']:.1f}, {bbox['y1']:.1f}, {bbox['x2']:.1f}, {bbox['y2']:.1f}]")
-            
-        # Save results
-        output_file = os.path.join(args.output_dir, "prediction_results.json")
-        with open(output_file, 'w') as f:
-            json.dump(results, f, indent=2)
-        print(f"Results saved to: {output_file}")
-        
-        # Visualize if requested
-        if args.visualize:
-            output_vis = os.path.join(args.output_dir, "visualization.jpg")
-            inference.visualize_predictions(args.image_path, output_vis)
-            
-    elif args.image_dir:
         # Multiple images
-        image_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '.gif']
-        image_paths = []
-        
-        for file in os.listdir(args.image_dir):
-            if any(file.lower().endswith(ext) for ext in image_extensions):
-                image_paths.append(os.path.join(args.image_dir, file))
-                
-        print(f"Processing {len(image_paths)} images from {args.image_dir}")
-        results = inference.predict_batch(image_paths)
-        
-        # Save results
-        output_file = os.path.join(args.output_dir, "batch_results.json")
-        with open(output_file, 'w') as f:
-            json.dump(results, f, indent=2)
-        print(f"Batch results saved to: {output_file}")
-        
-        # Print summary
-        total_detections = sum(r['num_detections'] for r in results)
-        print(f"\nSummary:")
-        print(f"Total images processed: {len(results)}")
-        print(f"Total detections: {total_detections}")
-        print(f"Average detections per image: {total_detections / len(results):.2f}")
-        
-    else:
-        print("Please provide either --image_path or --image_dir")
+    image_extensions = ['.jpg', '.jpeg', '.png', '.bmp', '.gif']
+    image_paths = []
+    
+    for file in os.listdir(args.image_dir):
+        if any(file.lower().endswith(ext) for ext in image_extensions):
+            image_paths.append(os.path.join(args.image_dir, file))
+            
+    print(f"Processing {len(image_paths)} images from {args.image_dir}")
+    results = inference.predict_batch(image_paths)
+    
+    # Save results
+    output_file = os.path.join(args.output_dir, "batch_results.json")
+    with open(output_file, 'w') as f:
+        json.dump(results, f, indent=2)
+    print(f"Batch results saved to: {output_file}")
+    
+    # Print summary
+    total_detections = sum(r['num_detections'] for r in results)
+    print(f"\nSummary:")
+    print(f"Total images processed: {len(results)}")
+    print(f"Total detections: {total_detections}")
+    print(f"Average detections per image: {total_detections / len(results):.2f}")
 
 
 if __name__ == "__main__":
