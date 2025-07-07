@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "claude": "^0.1.2",
+    "cursor": "^0.1.5"
+  }
+}

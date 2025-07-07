@@ -1,0 +1,1464 @@
+[
+  {
+    "image_path": "dataset/i_jpg.rf.d359fdf4c74387031f6e9656cad2bc63.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [281, 123, 304, 135], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [281, 123, 304, 135], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 281.0,
+          "y1": 123.0,
+          "x2": 304.0,
+          "y2": 135.0,
+          "width": 23.0,
+          "height": 12.0
+        },
+        "bbox_normalized": {
+          "x1": 281,
+          "y1": 123,
+          "x2": 304,
+          "y2": 135
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/uQmeLCqsF8aVIp37gjARAE6zZTXZacFDpXS7OzSBIg0_jpeg_jpg.rf.afd4b9cd8e9452f9fd6e406ae37f49d2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [14, 278, 115, 350], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [201, 110, 236, 131], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [14, 278, 115, 350], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [201, 110, 236, 131], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 14.0,
+          "y1": 278.0,
+          "x2": 115.0,
+          "y2": 350.0,
+          "width": 101.0,
+          "height": 72.0
+        },
+        "bbox_normalized": {
+          "x1": 14,
+          "y1": 278,
+          "x2": 115,
+          "y2": 350
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 201.0,
+          "y1": 110.0,
+          "x2": 236.0,
+          "y2": 131.0,
+          "width": 35.0,
+          "height": 21.0
+        },
+        "bbox_normalized": {
+          "x1": 201,
+          "y1": 110,
+          "x2": 236,
+          "y2": 131
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.dc0be9c0c6024338d9f4c9f41ff16433.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [319, 80, 417, 126], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [319, 80, 417, 126], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 319.0,
+          "y1": 80.0,
+          "x2": 417.0,
+          "y2": 126.0,
+          "width": 98.0,
+          "height": 46.0
+        },
+        "bbox_normalized": {
+          "x1": 319,
+          "y1": 80,
+          "x2": 417,
+          "y2": 126
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.6be9ae55f5ef79c2aeb793f941c31c21.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [167, 43, 208, 62], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [167, 43, 208, 62], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 167.0,
+          "y1": 43.0,
+          "x2": 208.0,
+          "y2": 62.0,
+          "width": 41.0,
+          "height": 19.0
+        },
+        "bbox_normalized": {
+          "x1": 167,
+          "y1": 43,
+          "x2": 208,
+          "y2": 62
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.eeb892473d93b544aa0b7907b9146d9a.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [350, 146, 378, 169], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [350, 146, 378, 169], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 350.0,
+          "y1": 146.0,
+          "x2": 378.0,
+          "y2": 169.0,
+          "width": 28.0,
+          "height": 23.0
+        },
+        "bbox_normalized": {
+          "x1": 350,
+          "y1": 146,
+          "x2": 378,
+          "y2": 169
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.ccdd697b4fb19b1e64be6d29037dc06d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [224, 90, 268, 117], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [224, 90, 268, 117], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 224.0,
+          "y1": 90.0,
+          "x2": 268.0,
+          "y2": 117.0,
+          "width": 44.0,
+          "height": 27.0
+        },
+        "bbox_normalized": {
+          "x1": 224,
+          "y1": 90,
+          "x2": 268,
+          "y2": 117
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7472742c925ab7cd6b97a3d49b651c88.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [195, 80, 314, 130], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [195, 80, 314, 130], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 195.0,
+          "y1": 80.0,
+          "x2": 314.0,
+          "y2": 130.0,
+          "width": 119.0,
+          "height": 50.0
+        },
+        "bbox_normalized": {
+          "x1": 195,
+          "y1": 80,
+          "x2": 314,
+          "y2": 130
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.2bc18aee333d4eff89648a736ee064d2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [369, 124, 395, 133], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [369, 124, 395, 133], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 369.0,
+          "y1": 124.0,
+          "x2": 395.0,
+          "y2": 133.0,
+          "width": 26.0,
+          "height": 9.0
+        },
+        "bbox_normalized": {
+          "x1": 369,
+          "y1": 124,
+          "x2": 395,
+          "y2": 133
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7a58dc5b925bd9216754350fe4c11e2d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [241, 78, 286, 105], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [241, 78, 286, 105], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 241.0,
+          "y1": 78.0,
+          "x2": 286.0,
+          "y2": 105.0,
+          "width": 45.0,
+          "height": 27.0
+        },
+        "bbox_normalized": {
+          "x1": 241,
+          "y1": 78,
+          "x2": 286,
+          "y2": 105
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/street-1_jpeg_jpg.rf.511faf10e144a03c67e0cfb77211673c.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [145, 360, 217, 398], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [145, 360, 217, 398], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 145.0,
+          "y1": 360.0,
+          "x2": 217.0,
+          "y2": 398.0,
+          "width": 72.0,
+          "height": 38.0
+        },
+        "bbox_normalized": {
+          "x1": 145,
+          "y1": 360,
+          "x2": 217,
+          "y2": 398
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/5726842_web1_HPPA-Executive-Director-Margot-Griffith-and-HVNP-plate_jpeg_jpg.rf.02d7b81b560f1d22f0991284e8900499.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [50, 238, 164, 349], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [50, 238, 164, 349], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 50.0,
+          "y1": 238.0,
+          "x2": 164.0,
+          "y2": 349.0,
+          "width": 114.0,
+          "height": 111.0
+        },
+        "bbox_normalized": {
+          "x1": 50,
+          "y1": 238,
+          "x2": 164,
+          "y2": 349
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/know_what_plates_to_get_for_your_business_vehicle_with_commercial_insurance_from_andrew_gordon_inc_jpeg_jpg.rf.5dc281486488854a0c5150c1572e0a1e.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [105, 308, 126, 334], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [105, 308, 126, 334], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 105.0,
+          "y1": 308.0,
+          "x2": 126.0,
+          "y2": 334.0,
+          "width": 21.0,
+          "height": 26.0
+        },
+        "bbox_normalized": {
+          "x1": 105,
+          "y1": 308,
+          "x2": 126,
+          "y2": 334
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/freddy-kearney-7qLnzmfBjW0-unsplash_jpeg_jpg.rf.b62947c5a5c437ef0ae4ac854db268e6.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [139, 104, 235, 186], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [139, 104, 235, 186], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 139.0,
+          "y1": 104.0,
+          "x2": 235.0,
+          "y2": 186.0,
+          "width": 96.0,
+          "height": 82.0
+        },
+        "bbox_normalized": {
+          "x1": 139,
+          "y1": 104,
+          "x2": 235,
+          "y2": 186
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/HAVA-PUG-461x330_jpeg_jpg.rf.2a182afe29968c94fc1143baed9a2cc6.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [0, 149, 38, 197], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [0, 149, 38, 197], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 0.0,
+          "y1": 149.0,
+          "x2": 38.0,
+          "y2": 197.0,
+          "width": 38.0,
+          "height": 48.0
+        },
+        "bbox_normalized": {
+          "x1": 0,
+          "y1": 149,
+          "x2": 38,
+          "y2": 197
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.efe7a05f713ac71b1c332714822f0c75.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [68, 67, 114, 93], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [68, 67, 114, 93], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 68.0,
+          "y1": 67.0,
+          "x2": 114.0,
+          "y2": 93.0,
+          "width": 46.0,
+          "height": 26.0
+        },
+        "bbox_normalized": {
+          "x1": 68,
+          "y1": 67,
+          "x2": 114,
+          "y2": 93
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/2235978325_2ea96dd00c_z_jpeg_jpg.rf.684b7d71bc5db65b800d3caa430374de.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [48, 90, 376, 335], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [48, 90, 376, 335], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 48.0,
+          "y1": 90.0,
+          "x2": 376.0,
+          "y2": 335.0,
+          "width": 328.0,
+          "height": 245.0
+        },
+        "bbox_normalized": {
+          "x1": 48,
+          "y1": 90,
+          "x2": 376,
+          "y2": 335
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/1000715385-license-plate-sting-1-1226x0-c-default_jpeg_jpg.rf.f07de063d34c15ac0474c134f1c66628.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [109, 345, 176, 389], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [109, 345, 176, 389], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.0,
+          "y1": 345.0,
+          "x2": 176.0,
+          "y2": 389.0,
+          "width": 67.0,
+          "height": 44.0
+        },
+        "bbox_normalized": {
+          "x1": 109,
+          "y1": 345,
+          "x2": 176,
+          "y2": 389
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/Image-from-iOS--3-_jpg.rf.88a5cb5d91db8fbe742336c9beb845c3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [205, 267, 243, 291], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [205, 267, 243, 291], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 205.0,
+          "y1": 267.0,
+          "x2": 243.0,
+          "y2": 291.0,
+          "width": 38.0,
+          "height": 24.0
+        },
+        "bbox_normalized": {
+          "x1": 205,
+          "y1": 267,
+          "x2": 243,
+          "y2": 291
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/eWu362s8rsDadICfBNFHldFOk12jRTX-QR6Vu2G-oww_jpeg_jpg.rf.9a7db83a790ad8440efc2814f2ffe8c3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [234, 197, 295, 240], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [234, 197, 295, 240], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 234.0,
+          "y1": 197.0,
+          "x2": 295.0,
+          "y2": 240.0,
+          "width": 61.0,
+          "height": 43.0
+        },
+        "bbox_normalized": {
+          "x1": 234,
+          "y1": 197,
+          "x2": 295,
+          "y2": 240
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/licenseplate_jpeg_jpg.rf.685aee50424cf983c258d50113d03fb4.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [63, 254, 167, 350], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [63, 254, 167, 350], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 63.0,
+          "y1": 254.0,
+          "x2": 167.0,
+          "y2": 350.0,
+          "width": 104.0,
+          "height": 96.0
+        },
+        "bbox_normalized": {
+          "x1": 63,
+          "y1": 254,
+          "x2": 167,
+          "y2": 350
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.1ac217d39f950cb2e718c8c5ba847608.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [327, 124, 358, 142], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [327, 124, 358, 142], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 327.0,
+          "y1": 124.0,
+          "x2": 358.0,
+          "y2": 142.0,
+          "width": 31.0,
+          "height": 18.0
+        },
+        "bbox_normalized": {
+          "x1": 327,
+          "y1": 124,
+          "x2": 358,
+          "y2": 142
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/85933219_jpeg_jpg.rf.bb366970a16798a0bfde24df0a96cb28.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [153, 224, 230, 260], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [153, 224, 230, 260], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 153.0,
+          "y1": 224.0,
+          "x2": 230.0,
+          "y2": 260.0,
+          "width": 77.0,
+          "height": 36.0
+        },
+        "bbox_normalized": {
+          "x1": 153,
+          "y1": 224,
+          "x2": 230,
+          "y2": 260
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.38bf70d3e103b67186aac2efe1ba5a15.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [314, 90, 356, 117], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [314, 90, 356, 117], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 314.0,
+          "y1": 90.0,
+          "x2": 356.0,
+          "y2": 117.0,
+          "width": 42.0,
+          "height": 27.0
+        },
+        "bbox_normalized": {
+          "x1": 314,
+          "y1": 90,
+          "x2": 356,
+          "y2": 117
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.54d78c9d7f7e44e311c725fe4c6ae002.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [324, 69, 375, 94], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [324, 69, 375, 94], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 324.0,
+          "y1": 69.0,
+          "x2": 375.0,
+          "y2": 94.0,
+          "width": 51.0,
+          "height": 25.0
+        },
+        "bbox_normalized": {
+          "x1": 324,
+          "y1": 69,
+          "x2": 375,
+          "y2": 94
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.fa64bfe575d5356d7b4e2e2913e384ba.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [374, 160, 418, 179], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [374, 160, 418, 179], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 374.0,
+          "y1": 160.0,
+          "x2": 418.0,
+          "y2": 179.0,
+          "width": 44.0,
+          "height": 19.0
+        },
+        "bbox_normalized": {
+          "x1": 374,
+          "y1": 160,
+          "x2": 418,
+          "y2": 179
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.479a742140a8e6606afef35ea63f7d05.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [314, 130, 375, 160], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [314, 130, 375, 160], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 314.0,
+          "y1": 130.0,
+          "x2": 375.0,
+          "y2": 160.0,
+          "width": 61.0,
+          "height": 30.0
+        },
+        "bbox_normalized": {
+          "x1": 314,
+          "y1": 130,
+          "x2": 375,
+          "y2": 160
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/5afbe4c6ed8af90bc0856fa9c0d8df57--washington-capitals-license-plates_jpeg_jpg.rf.5c1a8f9e52c84675b190fefbfe161fb0.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [168, 190, 264, 263], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [168, 190, 264, 263], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 168.0,
+          "y1": 190.0,
+          "x2": 264.0,
+          "y2": 263.0,
+          "width": 96.0,
+          "height": 73.0
+        },
+        "bbox_normalized": {
+          "x1": 168,
+          "y1": 190,
+          "x2": 264,
+          "y2": 263
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/Image-from-iOS--6-_jpg.rf.792e11f87c1b677881c3993c506d974e.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [56, 218, 90, 237], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [299, 245, 318, 265], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [56, 218, 90, 237], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [299, 245, 318, 265], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 56.0,
+          "y1": 218.0,
+          "x2": 90.0,
+          "y2": 237.0,
+          "width": 34.0,
+          "height": 19.0
+        },
+        "bbox_normalized": {
+          "x1": 56,
+          "y1": 218,
+          "x2": 90,
+          "y2": 237
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 299.0,
+          "y1": 245.0,
+          "x2": 318.0,
+          "y2": 265.0,
+          "width": 19.0,
+          "height": 20.0
+        },
+        "bbox_normalized": {
+          "x1": 299,
+          "y1": 245,
+          "x2": 318,
+          "y2": 265
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.f7cd70bb91732fb9010df663a092a79d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [398, 210, 420, 227], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [398, 210, 420, 227], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 398.0,
+          "y1": 210.0,
+          "x2": 420.0,
+          "y2": 227.0,
+          "width": 22.0,
+          "height": 17.0
+        },
+        "bbox_normalized": {
+          "x1": 398,
+          "y1": 210,
+          "x2": 420,
+          "y2": 227
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/2eff96b0-5234-11e9-9eaf-881ce4aedc87_jpeg_jpg.rf.9296d723c27141517658c376a1747a7d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [197, 324, 298, 415], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [197, 324, 298, 415], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 197.0,
+          "y1": 324.0,
+          "x2": 298.0,
+          "y2": 415.0,
+          "width": 101.0,
+          "height": 91.0
+        },
+        "bbox_normalized": {
+          "x1": 197,
+          "y1": 324,
+          "x2": 298,
+          "y2": 415
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/highway-3_jpeg_jpg.rf.00f554eb767972a50eda3c7b1a9987f8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nThe image you provided appears to be a photograph of a road with raindrops on the windshield, creating a speckled effect. There is no visible license plate in this image. If you have another image or need further assistance, feel free to share it!",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nThe image you provided appears to be a photograph of a road with raindrops on the windshield, creating a speckled effect. There is no visible license plate in this image. If you have another image or need further assistance, feel free to share it!",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "image_path": "dataset/freddy-kearney-7qLnzmfBjW0-unsplash_jpeg_jpg.rf.2db148fee22f62f51ab0774026611a1f.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [165, 124, 247, 183], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [165, 124, 247, 183], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 165.0,
+          "y1": 124.0,
+          "x2": 247.0,
+          "y2": 183.0,
+          "width": 82.0,
+          "height": 59.0
+        },
+        "bbox_normalized": {
+          "x1": 165,
+          "y1": 124,
+          "x2": 247,
+          "y2": 183
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/146407_7d361741ad2b465285c87e3ead9c56bf_1611083637_jpeg_jpg.rf.e946714e3a2960202641201a204ff925.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [178, 194, 260, 253], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [178, 194, 260, 253], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 178.0,
+          "y1": 194.0,
+          "x2": 260.0,
+          "y2": 253.0,
+          "width": 82.0,
+          "height": 59.0
+        },
+        "bbox_normalized": {
+          "x1": 178,
+          "y1": 194,
+          "x2": 260,
+          "y2": 253
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/0g2rd8ht30ny_jpeg_jpg.rf.7fb73856b79aaf7c3ed31d6d55445a66.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [165, 237, 229, 270], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [165, 237, 229, 270], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 165.0,
+          "y1": 237.0,
+          "x2": 229.0,
+          "y2": 270.0,
+          "width": 64.0,
+          "height": 33.0
+        },
+        "bbox_normalized": {
+          "x1": 165,
+          "y1": 237,
+          "x2": 229,
+          "y2": 270
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/download--1-_jpeg_jpg.rf.c28ed4d3bf3632f7f272456a79937ae8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [45, 180, 70, 200], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [296, 223, 318, 242], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [45, 180, 70, 200], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [296, 223, 318, 242], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 45.0,
+          "y1": 180.0,
+          "x2": 70.0,
+          "y2": 200.0,
+          "width": 25.0,
+          "height": 20.0
+        },
+        "bbox_normalized": {
+          "x1": 45,
+          "y1": 180,
+          "x2": 70,
+          "y2": 200
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 296.0,
+          "y1": 223.0,
+          "x2": 318.0,
+          "y2": 242.0,
+          "width": 22.0,
+          "height": 19.0
+        },
+        "bbox_normalized": {
+          "x1": 296,
+          "y1": 223,
+          "x2": 318,
+          "y2": 242
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7b208ace27ca11e10ecb9566b7a678c7.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [138, 84, 150, 126], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [138, 84, 150, 126], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 138.0,
+          "y1": 84.0,
+          "x2": 150.0,
+          "y2": 126.0,
+          "width": 12.0,
+          "height": 42.0
+        },
+        "bbox_normalized": {
+          "x1": 138,
+          "y1": 84,
+          "x2": 150,
+          "y2": 126
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.016314b10b92b8d263893581779f5961.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [340, 46, 405, 98], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [340, 46, 405, 98], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 340.0,
+          "y1": 46.0,
+          "x2": 405.0,
+          "y2": 98.0,
+          "width": 65.0,
+          "height": 52.0
+        },
+        "bbox_normalized": {
+          "x1": 340,
+          "y1": 46,
+          "x2": 405,
+          "y2": 98
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/892df324-d9da-41cf-ac74-58a11beb6a98-front_plates_jpeg_jpg.rf.f06c269d8afa143a1ad09b816e7e8032.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [193, 217, 208, 240], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [395, 212, 420, 246], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [193, 217, 208, 240], \"label\": \"License-Plate\"},\n\t{\"bbox_2d\": [395, 212, 420, 246], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 193.0,
+          "y1": 217.0,
+          "x2": 208.0,
+          "y2": 240.0,
+          "width": 15.0,
+          "height": 23.0
+        },
+        "bbox_normalized": {
+          "x1": 193,
+          "y1": 217,
+          "x2": 208,
+          "y2": 240
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 395.0,
+          "y1": 212.0,
+          "x2": 420.0,
+          "y2": 246.0,
+          "width": 25.0,
+          "height": 34.0
+        },
+        "bbox_normalized": {
+          "x1": 395,
+          "y1": 212,
+          "x2": 420,
+          "y2": 246
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/highway-2_jpeg_jpg.rf.5ef4a00f5a72e5a9d24e92ccca37502a.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nThere is no license plate visible in the image. The image shows a road with raindrops on the windshield, but no vehicle or license plate is present.",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nThere is no license plate visible in the image. The image shows a road with raindrops on the windshield, but no vehicle or license plate is present.",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.23c42c8424888d91da4ff8ff6bd20ef2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [345, 109, 367, 138], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [345, 109, 367, 138], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 345.0,
+          "y1": 109.0,
+          "x2": 367.0,
+          "y2": 138.0,
+          "width": 22.0,
+          "height": 29.0
+        },
+        "bbox_normalized": {
+          "x1": 345,
+          "y1": 109,
+          "x2": 367,
+          "y2": 138
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.3ff5eac1898fdd3a45ed50de2c175051.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [283, 145, 290, 149], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [283, 145, 290, 149], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 283.0,
+          "y1": 145.0,
+          "x2": 290.0,
+          "y2": 149.0,
+          "width": 7.0,
+          "height": 4.0
+        },
+        "bbox_normalized": {
+          "x1": 283,
+          "y1": 145,
+          "x2": 290,
+          "y2": 149
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/05087525-2018-lexus-ls-500-2_jpeg_jpg.rf.8d22ca071538b94f3b348261da2e8b60.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [290, 241, 325, 268], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [290, 241, 325, 268], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 290.0,
+          "y1": 241.0,
+          "x2": 325.0,
+          "y2": 268.0,
+          "width": 35.0,
+          "height": 27.0
+        },
+        "bbox_normalized": {
+          "x1": 290,
+          "y1": 241,
+          "x2": 325,
+          "y2": 268
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.e4ec22ed4f284d2ce0023c9304546093.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [391, 97, 415, 116], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [391, 97, 415, 116], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 391.0,
+          "y1": 97.0,
+          "x2": 415.0,
+          "y2": 116.0,
+          "width": 24.0,
+          "height": 19.0
+        },
+        "bbox_normalized": {
+          "x1": 391,
+          "y1": 97,
+          "x2": 415,
+          "y2": 116
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.327a26372c4a26996812441ab0272ab7.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [180, 34, 205, 46], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [180, 34, 205, 46], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 180.0,
+          "y1": 34.0,
+          "x2": 205.0,
+          "y2": 46.0,
+          "width": 25.0,
+          "height": 12.0
+        },
+        "bbox_normalized": {
+          "x1": 180,
+          "y1": 34,
+          "x2": 205,
+          "y2": 46
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/4fb91306-3ec0-4b63-bf47-579a3688d7fc_750x422_jpeg_jpg.rf.a0a00e04a00e248ea7a05cfa95d49de3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [273, 234, 316, 280], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [273, 234, 316, 280], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 273.0,
+          "y1": 234.0,
+          "x2": 316.0,
+          "y2": 280.0,
+          "width": 43.0,
+          "height": 46.0
+        },
+        "bbox_normalized": {
+          "x1": 273,
+          "y1": 234,
+          "x2": 316,
+          "y2": 280
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/street-2_jpeg_jpg.rf.bc9e3a247e32340e4c7f6d755d9a0df8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [180, 265, 189, 274], \"label\": \"License-Plate\"}\n]\n```",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n```json\n[\n\t{\"bbox_2d\": [180, 265, 189, 274], \"label\": \"License-Plate\"}\n]\n```",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 180.0,
+          "y1": 265.0,
+          "x2": 189.0,
+          "y2": 274.0,
+          "width": 9.0,
+          "height": 9.0
+        },
+        "bbox_normalized": {
+          "x1": 180,
+          "y1": 265,
+          "x2": 189,
+          "y2": 274
+        }
+      }
+    ]
+  }
+]

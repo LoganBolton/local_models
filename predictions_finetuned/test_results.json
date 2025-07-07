@@ -1,0 +1,1844 @@
+[
+  {
+    "image_path": "dataset/i_jpg.rf.d359fdf4c74387031f6e9656cad2bc63.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0124><loc0638><loc0175><loc0729> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0124><loc0638><loc0175><loc0729> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 51.584,
+          "y1": 265.408,
+          "x2": 72.8,
+          "y2": 303.264,
+          "width": 21.215999999999994,
+          "height": 37.855999999999995
+        },
+        "bbox_normalized": {
+          "x1": 124,
+          "y1": 638,
+          "x2": 175,
+          "y2": 729
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/uQmeLCqsF8aVIp37gjARAE6zZTXZacFDpXS7OzSBIg0_jpeg_jpg.rf.afd4b9cd8e9452f9fd6e406ae37f49d2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0829> License-Plate ; <loc0284><loc0600><loc0356><loc0702> License-Plate ; <loc0284><loc0500><loc0356><loc0582> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0829> License-Plate ; <loc0284><loc0600><loc0356><loc0702> License-Plate ; <loc0284><loc0500><loc0356><loc0582> License-Plate",
+    "num_detections": 3,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 296.608,
+          "x2": 148.096,
+          "y2": 344.864,
+          "width": 29.952000000000012,
+          "height": 48.25599999999997
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 713,
+          "x2": 356,
+          "y2": 829
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 249.6,
+          "x2": 148.096,
+          "y2": 292.032,
+          "width": 29.952000000000012,
+          "height": 42.43199999999999
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 600,
+          "x2": 356,
+          "y2": 702
+        }
+      },
+      {
+        "id": 2,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 208.0,
+          "x2": 148.096,
+          "y2": 242.112,
+          "width": 29.952000000000012,
+          "height": 34.111999999999995
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 500,
+          "x2": 356,
+          "y2": 582
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.dc0be9c0c6024338d9f4c9f41ff16433.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.6be9ae55f5ef79c2aeb793f941c31c21.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0318><loc0356><loc0419> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0318><loc0356><loc0419> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 132.288,
+          "x2": 148.096,
+          "y2": 174.304,
+          "width": 34.111999999999995,
+          "height": 42.01599999999999
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 318,
+          "x2": 356,
+          "y2": 419
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.eeb892473d93b544aa0b7907b9146d9a.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0245><loc0713><loc0268><loc0749> License-Plate ; <loc0245><loc0749><loc0268><loc0785> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0245><loc0713><loc0268><loc0749> License-Plate ; <loc0245><loc0749><loc0268><loc0785> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.92,
+          "y1": 296.608,
+          "x2": 111.488,
+          "y2": 311.584,
+          "width": 9.567999999999998,
+          "height": 14.975999999999999
+        },
+        "bbox_normalized": {
+          "x1": 245,
+          "y1": 713,
+          "x2": 268,
+          "y2": 749
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.92,
+          "y1": 311.584,
+          "x2": 111.488,
+          "y2": 326.56,
+          "width": 9.567999999999998,
+          "height": 14.975999999999999
+        },
+        "bbox_normalized": {
+          "x1": 245,
+          "y1": 749,
+          "x2": 268,
+          "y2": 785
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.ccdd697b4fb19b1e64be6d29037dc06d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0513><loc0378><loc0690> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0513><loc0378><loc0690> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 213.40800000000002,
+          "x2": 157.248,
+          "y2": 287.03999999999996,
+          "width": 47.42399999999998,
+          "height": 73.63199999999995
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 513,
+          "x2": 378,
+          "y2": 690
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7472742c925ab7cd6b97a3d49b651c88.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0613><loc0358><loc0749> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0613><loc0358><loc0749> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 255.00799999999998,
+          "x2": 148.928,
+          "y2": 311.584,
+          "width": 34.94399999999999,
+          "height": 56.57600000000002
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 613,
+          "x2": 358,
+          "y2": 749
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.2bc18aee333d4eff89648a736ee064d2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0275><loc0829> License-Plate ; <loc0264><loc0832><loc0275><loc0849> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0275><loc0829> License-Plate ; <loc0264><loc0832><loc0275><loc0849> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 338.20799999999997,
+          "x2": 114.4,
+          "y2": 344.864,
+          "width": 4.575999999999993,
+          "height": 6.656000000000006
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 813,
+          "x2": 275,
+          "y2": 829
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 346.11199999999997,
+          "x2": 114.4,
+          "y2": 353.18399999999997,
+          "width": 4.575999999999993,
+          "height": 7.072000000000003
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 832,
+          "x2": 275,
+          "y2": 849
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7a58dc5b925bd9216754350fe4c11e2d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0358><loc0849> License-Plate ; <loc0264><loc0713><loc0358><loc0849> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0358><loc0849> License-Plate ; <loc0264><loc0713><loc0358><loc0849> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 296.608,
+          "x2": 148.928,
+          "y2": 353.18399999999997,
+          "width": 39.103999999999985,
+          "height": 56.575999999999965
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 713,
+          "x2": 358,
+          "y2": 849
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 296.608,
+          "x2": 148.928,
+          "y2": 353.18399999999997,
+          "width": 39.103999999999985,
+          "height": 56.575999999999965
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 713,
+          "x2": 358,
+          "y2": 849
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/street-1_jpeg_jpg.rf.511faf10e144a03c67e0cfb77211673c.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0285><loc0749> License-Plate ; <loc0280><loc0800><loc0300><loc0832> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0285><loc0749> License-Plate ; <loc0280><loc0800><loc0300><loc0832> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 296.608,
+          "x2": 118.55999999999999,
+          "y2": 311.584,
+          "width": 8.735999999999976,
+          "height": 14.975999999999999
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 713,
+          "x2": 285,
+          "y2": 749
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 116.48000000000002,
+          "y1": 332.8,
+          "x2": 124.8,
+          "y2": 346.11199999999997,
+          "width": 8.319999999999979,
+          "height": 13.311999999999955
+        },
+        "bbox_normalized": {
+          "x1": 280,
+          "y1": 800,
+          "x2": 300,
+          "y2": 832
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/5726842_web1_HPPA-Executive-Director-Margot-Griffith-and-HVNP-plate_jpeg_jpg.rf.02d7b81b560f1d22f0991284e8900499.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0136><loc0579><loc0482> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0136><loc0579><loc0482> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 56.57600000000001,
+          "x2": 240.86399999999998,
+          "y2": 200.512,
+          "width": 122.71999999999998,
+          "height": 143.93599999999998
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 136,
+          "x2": 579,
+          "y2": 482
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/know_what_plates_to_get_for_your_business_vehicle_with_commercial_insurance_from_andrew_gordon_inc_jpeg_jpg.rf.5dc281486488854a0c5150c1572e0a1e.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0306><loc0859> License-Plate ; <loc0274><loc0780><loc0306><loc0824> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0306><loc0859> License-Plate ; <loc0274><loc0780><loc0306><loc0824> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 127.29599999999999,
+          "y2": 357.344,
+          "width": 13.311999999999983,
+          "height": 19.136000000000024
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 306,
+          "y2": 859
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 324.48,
+          "x2": 127.29599999999999,
+          "y2": 342.784,
+          "width": 13.311999999999983,
+          "height": 18.303999999999974
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 780,
+          "x2": 306,
+          "y2": 824
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/freddy-kearney-7qLnzmfBjW0-unsplash_jpeg_jpg.rf.b62947c5a5c437ef0ae4ac854db268e6.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0518><loc0679><loc0982> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0518><loc0679><loc0982> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 215.488,
+          "x2": 282.464,
+          "y2": 408.512,
+          "width": 181.376,
+          "height": 193.024
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 518,
+          "x2": 679,
+          "y2": 982
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/HAVA-PUG-461x330_jpeg_jpg.rf.2a182afe29968c94fc1143baed9a2cc6.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0357><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0357><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.512,
+          "y2": 391.03999999999996,
+          "width": 38.68799999999999,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 813,
+          "x2": 357,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.efe7a05f713ac71b1c332714822f0c75.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0305><loc0869> License-Plate ; <loc0274><loc0780><loc0305><loc0833> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0305><loc0869> License-Plate ; <loc0274><loc0780><loc0305><loc0833> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 126.88,
+          "y2": 361.504,
+          "width": 12.895999999999987,
+          "height": 23.29600000000005
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 305,
+          "y2": 869
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 324.48,
+          "x2": 126.88,
+          "y2": 346.52799999999996,
+          "width": 12.895999999999987,
+          "height": 22.047999999999945
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 780,
+          "x2": 305,
+          "y2": 833
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/2235978325_2ea96dd00c_z_jpeg_jpg.rf.684b7d71bc5db65b800d3caa430374de.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0241><loc0538><loc0967><loc1080> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0241><loc0538><loc0967><loc1080> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 100.256,
+          "y1": 223.80800000000002,
+          "x2": 402.272,
+          "y2": 449.28000000000003,
+          "width": 302.01599999999996,
+          "height": 225.472
+        },
+        "bbox_normalized": {
+          "x1": 241,
+          "y1": 538,
+          "x2": 967,
+          "y2": 1080
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/1000715385-license-plate-sting-1-1226x0-c-default_jpeg_jpg.rf.f07de063d34c15ac0474c134f1c66628.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0650> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0650> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 214.656,
+          "x2": 161.824,
+          "y2": 270.40000000000003,
+          "width": 47.84,
+          "height": 55.74400000000003
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 516,
+          "x2": 389,
+          "y2": 650
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/Image-from-iOS--3-_jpg.rf.88a5cb5d91db8fbe742336c9beb845c3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0613><loc0358><loc0729> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0613><loc0358><loc0729> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 255.00799999999998,
+          "x2": 148.928,
+          "y2": 303.264,
+          "width": 34.94399999999999,
+          "height": 48.25600000000003
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 613,
+          "x2": 358,
+          "y2": 729
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/eWu362s8rsDadICfBNFHldFOk12jRTX-QR6Vu2G-oww_jpeg_jpg.rf.9a7db83a790ad8440efc2814f2ffe8c3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0682> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0682> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 214.656,
+          "x2": 161.824,
+          "y2": 283.71200000000005,
+          "width": 47.84,
+          "height": 69.05600000000004
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 516,
+          "x2": 389,
+          "y2": 682
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/licenseplate_jpeg_jpg.rf.685aee50424cf983c258d50113d03fb4.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0624><loc0137><loc0859><loc0408> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0624><loc0137><loc0859><loc0408> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 259.584,
+          "y1": 56.992000000000004,
+          "x2": 357.344,
+          "y2": 169.72799999999998,
+          "width": 97.75999999999999,
+          "height": 112.73599999999998
+        },
+        "bbox_normalized": {
+          "x1": 624,
+          "y1": 137,
+          "x2": 859,
+          "y2": 408
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.1ac217d39f950cb2e718c8c5ba847608.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/85933219_jpeg_jpg.rf.bb366970a16798a0bfde24df0a96cb28.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0513><loc0386><loc0690> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0513><loc0386><loc0690> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 213.40800000000002,
+          "x2": 160.576,
+          "y2": 287.03999999999996,
+          "width": 46.591999999999985,
+          "height": 73.63199999999995
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 513,
+          "x2": 386,
+          "y2": 690
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.38bf70d3e103b67186aac2efe1ba5a15.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0716><loc0258><loc0739> License-Plate ; <loc0243><loc0739><loc0258><loc0762> License-Plate ; <loc0243><loc0762><loc0258><loc0785> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0716><loc0258><loc0739> License-Plate ; <loc0243><loc0739><loc0258><loc0762> License-Plate ; <loc0243><loc0762><loc0258><loc0785> License-Plate",
+    "num_detections": 3,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 297.856,
+          "x2": 107.328,
+          "y2": 307.424,
+          "width": 6.240000000000009,
+          "height": 9.567999999999984
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 716,
+          "x2": 258,
+          "y2": 739
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 307.424,
+          "x2": 107.328,
+          "y2": 316.992,
+          "width": 6.240000000000009,
+          "height": 9.56800000000004
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 739,
+          "x2": 258,
+          "y2": 762
+        }
+      },
+      {
+        "id": 2,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 316.992,
+          "x2": 107.328,
+          "y2": 326.56,
+          "width": 6.240000000000009,
+          "height": 9.567999999999984
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 762,
+          "x2": 258,
+          "y2": 785
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.54d78c9d7f7e44e311c725fe4c6ae002.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.fa64bfe575d5356d7b4e2e2913e384ba.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.479a742140a8e6606afef35ea63f7d05.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/5afbe4c6ed8af90bc0856fa9c0d8df57--washington-capitals-license-plates_jpeg_jpg.rf.5c1a8f9e52c84675b190fefbfe161fb0.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0518><loc0396><loc0700> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0518><loc0396><loc0700> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 215.488,
+          "x2": 164.73600000000002,
+          "y2": 291.2,
+          "width": 50.75200000000001,
+          "height": 75.71199999999999
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 518,
+          "x2": 396,
+          "y2": 700
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/Image-from-iOS--6-_jpg.rf.792e11f87c1b677881c3993c506d974e.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0809> License-Plate ; <loc0284><loc0713><loc0356><loc0809> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0809> License-Plate ; <loc0284><loc0713><loc0356><loc0809> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 296.608,
+          "x2": 148.096,
+          "y2": 336.54400000000004,
+          "width": 29.952000000000012,
+          "height": 39.936000000000035
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 713,
+          "x2": 356,
+          "y2": 809
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 296.608,
+          "x2": 148.096,
+          "y2": 336.54400000000004,
+          "width": 29.952000000000012,
+          "height": 39.936000000000035
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 713,
+          "x2": 356,
+          "y2": 809
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.f7cd70bb91732fb9010df663a092a79d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0816><loc0257><loc0839> License-Plate ; <loc0243><loc0780><loc0257><loc0803> License-Plate ; <loc0243><loc0750><loc0257><loc0773> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0243><loc0816><loc0257><loc0839> License-Plate ; <loc0243><loc0780><loc0257><loc0803> License-Plate ; <loc0243><loc0750><loc0257><loc0773> License-Plate",
+    "num_detections": 3,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 339.45599999999996,
+          "x2": 106.912,
+          "y2": 349.024,
+          "width": 5.824000000000012,
+          "height": 9.56800000000004
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 816,
+          "x2": 257,
+          "y2": 839
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 324.48,
+          "x2": 106.912,
+          "y2": 334.048,
+          "width": 5.824000000000012,
+          "height": 9.567999999999984
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 780,
+          "x2": 257,
+          "y2": 803
+        }
+      },
+      {
+        "id": 2,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 101.088,
+          "y1": 312.0,
+          "x2": 106.912,
+          "y2": 321.568,
+          "width": 5.824000000000012,
+          "height": 9.567999999999984
+        },
+        "bbox_normalized": {
+          "x1": 243,
+          "y1": 750,
+          "x2": 257,
+          "y2": 773
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/2eff96b0-5234-11e9-9eaf-881ce4aedc87_jpeg_jpg.rf.9296d723c27141517658c376a1747a7d.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0589><loc0982> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0589><loc0982> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 296.608,
+          "x2": 245.024,
+          "y2": 408.512,
+          "width": 135.2,
+          "height": 111.904
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 713,
+          "x2": 589,
+          "y2": 982
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/highway-3_jpeg_jpg.rf.00f554eb767972a50eda3c7b1a9987f8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nNo license plates detected.",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nNo license plates detected.",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "image_path": "dataset/freddy-kearney-7qLnzmfBjW0-unsplash_jpeg_jpg.rf.2db148fee22f62f51ab0774026611a1f.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0318><loc0569><loc0588> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0318><loc0569><loc0588> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 132.288,
+          "x2": 236.70399999999998,
+          "y2": 244.60799999999998,
+          "width": 122.71999999999997,
+          "height": 112.31999999999996
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 318,
+          "x2": 569,
+          "y2": 588
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/146407_7d361741ad2b465285c87e3ead9c56bf_1611083637_jpeg_jpg.rf.e946714e3a2960202641201a204ff925.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0513><loc0468><loc0792> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0513><loc0468><loc0792> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 213.40800000000002,
+          "x2": 194.68800000000002,
+          "y2": 329.47200000000004,
+          "width": 80.70400000000001,
+          "height": 116.06400000000002
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 513,
+          "x2": 468,
+          "y2": 792
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/0g2rd8ht30ny_jpeg_jpg.rf.7fb73856b79aaf7c3ed31d6d55445a66.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0682> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0516><loc0389><loc0682> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 214.656,
+          "x2": 161.824,
+          "y2": 283.71200000000005,
+          "width": 47.84,
+          "height": 69.05600000000004
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 516,
+          "x2": 389,
+          "y2": 682
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/download--1-_jpeg_jpg.rf.c28ed4d3bf3632f7f272456a79937ae8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0816><loc0305><loc0859> License-Plate ; <loc0274><loc0780><loc0305><loc0818> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0816><loc0305><loc0859> License-Plate ; <loc0274><loc0780><loc0305><loc0818> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 339.45599999999996,
+          "x2": 126.88,
+          "y2": 357.344,
+          "width": 12.895999999999987,
+          "height": 17.888000000000034
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 816,
+          "x2": 305,
+          "y2": 859
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 324.48,
+          "x2": 126.88,
+          "y2": 340.28799999999995,
+          "width": 12.895999999999987,
+          "height": 15.807999999999936
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 780,
+          "x2": 305,
+          "y2": 818
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.7b208ace27ca11e10ecb9566b7a678c7.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.016314b10b92b8d263893581779f5961.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/892df324-d9da-41cf-ac74-58a11beb6a98-front_plates_jpeg_jpg.rf.f06c269d8afa143a1ad09b816e7e8032.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0306><loc0859> License-Plate ; <loc0274><loc0780><loc0306><loc0814> License-Plate ; <loc0274><loc0748><loc0306><loc0782> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0306><loc0859> License-Plate ; <loc0274><loc0780><loc0306><loc0814> License-Plate ; <loc0274><loc0748><loc0306><loc0782> License-Plate",
+    "num_detections": 3,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 127.29599999999999,
+          "y2": 357.344,
+          "width": 13.311999999999983,
+          "height": 19.136000000000024
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 306,
+          "y2": 859
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 324.48,
+          "x2": 127.29599999999999,
+          "y2": 338.62399999999997,
+          "width": 13.311999999999983,
+          "height": 14.143999999999949
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 780,
+          "x2": 306,
+          "y2": 814
+        }
+      },
+      {
+        "id": 2,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 311.168,
+          "x2": 127.29599999999999,
+          "y2": 325.312,
+          "width": 13.311999999999983,
+          "height": 14.144000000000005
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 748,
+          "x2": 306,
+          "y2": 782
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/highway-2_jpeg_jpg.rf.5ef4a00f5a72e5a9d24e92ccca37502a.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nNo license plates detected.",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\nNo license plates detected.",
+    "num_detections": 0,
+    "detections": []
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.23c42c8424888d91da4ff8ff6bd20ef2.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0356><loc0940> License-Plate ; <loc0274><loc0813><loc0356><loc0940> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.096,
+          "y2": 391.03999999999996,
+          "width": 34.111999999999995,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 356,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.3ff5eac1898fdd3a45ed50de2c175051.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0295><loc0836> License-Plate ; <loc0280><loc0802><loc0300><loc0824> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0274><loc0813><loc0295><loc0836> License-Plate ; <loc0280><loc0802><loc0300><loc0824> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 113.98400000000001,
+          "y1": 338.20799999999997,
+          "x2": 122.72,
+          "y2": 347.776,
+          "width": 8.73599999999999,
+          "height": 9.56800000000004
+        },
+        "bbox_normalized": {
+          "x1": 274,
+          "y1": 813,
+          "x2": 295,
+          "y2": 836
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 116.48000000000002,
+          "y1": 333.632,
+          "x2": 124.8,
+          "y2": 342.784,
+          "width": 8.319999999999979,
+          "height": 9.151999999999987
+        },
+        "bbox_normalized": {
+          "x1": 280,
+          "y1": 802,
+          "x2": 300,
+          "y2": 824
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/05087525-2018-lexus-ls-500-2_jpeg_jpg.rf.8d22ca071538b94f3b348261da2e8b60.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0829> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0284><loc0713><loc0356><loc0829> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 118.14399999999999,
+          "y1": 296.608,
+          "x2": 148.096,
+          "y2": 344.864,
+          "width": 29.952000000000012,
+          "height": 48.25599999999997
+        },
+        "bbox_normalized": {
+          "x1": 284,
+          "y1": 713,
+          "x2": 356,
+          "y2": 829
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.e4ec22ed4f284d2ce0023c9304546093.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0357><loc0940> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0357><loc0940> License-Plate",
+    "num_detections": 1,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 338.20799999999997,
+          "x2": 148.512,
+          "y2": 391.03999999999996,
+          "width": 38.68799999999999,
+          "height": 52.831999999999994
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 813,
+          "x2": 357,
+          "y2": 940
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/i_jpg.rf.327a26372c4a26996812441ab0272ab7.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0275><loc0829> License-Plate ; <loc0264><loc0780><loc0275><loc0800> License-Plate ; <loc0264><loc0750><loc0275><loc0770> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0813><loc0275><loc0829> License-Plate ; <loc0264><loc0780><loc0275><loc0800> License-Plate ; <loc0264><loc0750><loc0275><loc0770> License-Plate",
+    "num_detections": 3,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 338.20799999999997,
+          "x2": 114.4,
+          "y2": 344.864,
+          "width": 4.575999999999993,
+          "height": 6.656000000000006
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 813,
+          "x2": 275,
+          "y2": 829
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 324.48,
+          "x2": 114.4,
+          "y2": 332.8,
+          "width": 4.575999999999993,
+          "height": 8.319999999999993
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 780,
+          "x2": 275,
+          "y2": 800
+        }
+      },
+      {
+        "id": 2,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 312.0,
+          "x2": 114.4,
+          "y2": 320.32,
+          "width": 4.575999999999993,
+          "height": 8.319999999999993
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 750,
+          "x2": 275,
+          "y2": 770
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/4fb91306-3ec0-4b63-bf47-579a3688d7fc_750x422_jpeg_jpg.rf.a0a00e04a00e248ea7a05cfa95d49de3.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0308><loc0795> License-Plate ; <loc0264><loc0680><loc0308><loc0760> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0713><loc0308><loc0795> License-Plate ; <loc0264><loc0680><loc0308><loc0760> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 296.608,
+          "x2": 128.128,
+          "y2": 330.72,
+          "width": 18.303999999999974,
+          "height": 34.11200000000002
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 713,
+          "x2": 308,
+          "y2": 795
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 282.88,
+          "x2": 128.128,
+          "y2": 316.16,
+          "width": 18.303999999999974,
+          "height": 33.28000000000003
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 680,
+          "x2": 308,
+          "y2": 760
+        }
+      }
+    ]
+  },
+  {
+    "image_path": "dataset/street-2_jpeg_jpg.rf.bc9e3a247e32340e4c7f6d755d9a0df8.jpg",
+    "image_size": [
+      416,
+      416
+    ],
+    "raw_response": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0781><loc0305><loc0849> License-Plate ; <loc0264><loc0800><loc0305><loc0868> License-Plate",
+    "parsed_answer": "system\nYou are a helpful assistant.\nuser\ndetect License-Plate\nassistant\n<loc0264><loc0781><loc0305><loc0849> License-Plate ; <loc0264><loc0800><loc0305><loc0868> License-Plate",
+    "num_detections": 2,
+    "detections": [
+      {
+        "id": 0,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 324.896,
+          "x2": 126.88,
+          "y2": 353.18399999999997,
+          "width": 17.055999999999983,
+          "height": 28.287999999999954
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 781,
+          "x2": 305,
+          "y2": 849
+        }
+      },
+      {
+        "id": 1,
+        "class": "License-Plate",
+        "confidence": 1.0,
+        "bbox_actual": {
+          "x1": 109.82400000000001,
+          "y1": 332.8,
+          "x2": 126.88,
+          "y2": 361.088,
+          "width": 17.055999999999983,
+          "height": 28.28800000000001
+        },
+        "bbox_normalized": {
+          "x1": 264,
+          "y1": 800,
+          "x2": 305,
+          "y2": 868
+        }
+      }
+    ]
+  }
+]
